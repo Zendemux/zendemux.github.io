@@ -46,7 +46,6 @@ body{
 .btn{background:var(--accent);color:white;border:none;padding:.5rem .8rem;border-radius:10px;cursor:pointer;font-weight:600}
 .btn.ghost{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--text)}
 .btn.outline{background:transparent;border:2px solid var(--accent);color:var(--accent)}
-.mobile-toggle{display:none}
 
 /* Hero */
 .hero{padding:4rem 0}
@@ -78,6 +77,5 @@ body{
 @media (max-width:880px){
 	.hero-inner{grid-template-columns:1fr;gap:1.25rem}
 	.nav{display:none}
-	.mobile-toggle{display:inline-flex}
 	.header-inner{align-items:center}
 }

@@ -148,7 +148,7 @@ main {
 }
 
 .card-screenshot {
-	height: 360px;
+	height: 240px;
 	border-radius: var(--radius);
 }
 
